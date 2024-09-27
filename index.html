@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escola DNC</title>
+  </head>
+  <body>
+    <section class="banner">
+      <figure class="box-image_banner">
+        <img src="./assets/logo.svg" class="logo" />
+      </figure>
+      <div class="box-text_banner">
+        <h1>Dê os primeiros passos da sua carreira em Tecnologia</h1>
+        <p class="text_banner">
+          Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC School
+          e aprenda os principais fundamentos para construir experiências
+          efetivas.
+        </p>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="box-services">
+        <div class="box-services-certificate">
+          <img
+            id="icon"
+            src="./assets/icon-certificate.svg"
+            alt="icon-certificate"
+          />
+          <p>Certificado de conclusão</p>
+        </div>
+        <div class="box-services-certificate">
+          <img id="icon" src="./assets/icon-clock.svg" alt="icon-certificate" />
+          <p>4 horas de conteúdo</p>
+        </div>
+        <div class="box-services-certificate">
+          <img id="icon" src="./assets/icon-video.svg" alt="icon-certificate" />
+          <p>Aulas online gravadas</p>
+        </div>
+      </div>
+      <div class="box-apresentation">
+        <figure class="box-image_apresentation">
+          <img
+            class="image_apresentation"
+            src="./assets/photo-video.svg"
+            alt="photo-video"
+          />
+          <div class="circle-play">
+            <img class="play-button" src="./assets/play.svg" alt="play" />
+          </div>
+        </figure>
+        <div class="box-apresentation-text">
+          <h2>
+            Aprenda com especialistas e <br />
+            comece seu primeiro projeto
+          </h2>
+          <p>
+            Conheça o processo de desenvolvimento e entenda como utilizar<br />
+            os principais métodos e ferramentas da área para resolver <br />
+            problemas complexos.
+          </p>
+          <p>
+            Conquiste seu certificado e desenvolva um projeto prático para
+            <br />
+            aplicar seus conhecimentos.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="caroucel">
+      <h2>Mais de 500 alunos já iniciaram seus estudos</h2>
+      <div class="box-depoiments">
+        <img id="back" src="./assets/seta.svg" alt="seta-voltar" />
+
+        <div id="card-1" class="depoiments-card">
+          <figure>
+            <img src="./assets/perfil-menina.svg" alt="perfil-menina" />
+          </figure>
+          <div>
+            <p>
+              “O curso da DNC School foi o ponto de partida da minha transição
+              de carreira. Hoje já consegui minha primeira vaga na área!”
+            </p>
+            <label>Bruna, desenvolvedora Front-End</label>
+          </div>
+        </div>
+
+        <div id="card-2" class="depoiments-card">
+          <figure>
+            <img src="./assets/perfil-menino.svg" alt="perfil-menino" />
+          </figure>
+          <div>
+            <p>
+              “Gostei muito da metodologia e da plataforma da Escola DNC. Os
+              materiais são todos muito bons”
+            </p>
+            <label>Leonardo, desenvolvedor Back-End</label>
+          </div>
+        </div>
+
+        <div id="card-3" class="depoiments-card">
+          <figure>
+            <img src="./assets/perfil-menina2.svg" alt="perfil-menina2" />
+          </figure>
+          <div>
+            <p>
+              “O curso da foi a mudança que eu precisava para alcançar meus
+              objetivos profissionais”
+            </p>
+            <label>Samantha, desenvolvedira Front-End</label>
+          </div>
+        </div>
+
+        <img id="next" src="./assets/seta.svg" alt="seta-proximo" />
+      </div>
+    </section>
+    <section class="section-form">
+      <h2>Comece agora mesmo e dê o próximo passo da sua carreira</h2>
+      <form
+        id="form"
+        action="https://api.sheetmonkey.io/form/x6a4rm9FSwq5xEi8cem4DJ"
+        method="post"
+      >
+        <input id="nome" type="text" placeholder="Nome" name="Name" required />
+        <input
+          id="email"
+          type="email"
+          placeholder="Email"
+          name="Email"
+          required
+        />
+        <input
+          id="tel"
+          type="tel"
+          placeholder="Telefone"
+          name="Phone"
+          required
+        />
+        <input
+          type="hidden"
+          name="Created"
+          value="x-sheetmonkey-current-date-time"
+        />
+        <button type="submit">Acesse a ementa grátis</button>
+      </form>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
